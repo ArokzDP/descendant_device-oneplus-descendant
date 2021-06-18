@@ -24,10 +24,10 @@ $(call inherit-product, device/oneplus/dumpling/device.mk)
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Inherit from Potato vendor
-$(call inherit-product, vendor/potato/config/common_full_phone.mk)
+# Inherit from Descendant vendor
+$(call inherit-product, vendor/descendant/config/common_full_phone.mk)
 
-PRODUCT_NAME := potato_dumpling
+PRODUCT_NAME := descendant_dumpling
 PRODUCT_DEVICE := dumpling
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus

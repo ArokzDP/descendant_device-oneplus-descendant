@@ -47,3 +47,8 @@ PRODUCT_COPY_FILES += \
 
 # Inherit from oneplus msm8998-common
 $(call inherit-product, device/oneplus/msm8998-common/common.mk)
+
+#Inherit FaceUnlock
+TARGET_FACE_UNLOCK_SUPPORT := YES
+
+TARGET_SUPPORTS_BLUR := true
